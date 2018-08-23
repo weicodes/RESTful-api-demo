@@ -3,3 +3,6 @@ server:
   ssl:
     key-store: F:/key/tomcat.keystore
     key-store-password: 123456
+swagger:
+  enabled: true
+  base-package: com.wd.rest.controller
